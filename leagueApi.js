@@ -6,10 +6,6 @@
   const findChampionName = require('./findChampionName.js');
   const localDateTime = require('./calculateCurrentDateFunction.js')
 
-//https://br1.api.riotgames.com/lol/champion-mastery/v4/champion-masteries/by-puuid/%s?api_key=RGAPI-27ba8515-a52c-4a85-b628-45348087d497
-//i4aAh2w-YFjwPKJl67eL_EPXERiZwwcpYxp-C766M81UcoABu7EVAizBZnbGaS2dzanXyLSC8kHQZA
-//localhost:8080/getSummonerMasteries/i4aAh2w-YFjwPKJl67eL_EPXERiZwwcpYxp-C766M81UcoABu7EVAizBZnbGaS2dzanXyLSC8kHQZA
-
   app.use(express.json());
 
   
